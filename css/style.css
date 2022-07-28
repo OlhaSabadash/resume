@@ -1,3 +1,46 @@
 body {
-    background-color: aqua;
+    background-color: rgb(202, 250, 250);
+    font-family: 'Montserrat Alternates', sans-serif;
 }
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: aqua;
+    margin: 40px auto;
+    
+}
+.my-container-section {
+    
+}
+.about-me-section {
+    background: rgb(190, 112, 112);
+}
+.about-me-profession {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.my-projects-section {
+    background: rgb(95, 106, 179);
+}
+.my-work-experience {
+    background: rgb(135, 189, 133);
+}
+.my-education {
+    background: rgb(167, 82, 167);
+}
+
+
+
+
+.sidebar-section {
+    background-color: #838e9f;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+}
+.contacts {}
+.tech-skills {}
+.soft-skills {}
