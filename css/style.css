@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(229, 232, 232);
+    background-color: rgb(253, 235, 201);
     font-family: 'Montserrat Alternates', sans-serif;
 }
 .main-container {
@@ -8,26 +8,135 @@ body {
     width: 1200px;
     background-color: #fff;
     margin: 40px auto;
-    
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
 }
-.my-container-section {}
-.about-me-profession {
-    font-size: 14px;
-    font-weight: 700;
-    color: black;
+.my-content-section {
+    padding: 70px 40px;
 }
+/*About me section --------------------------------------------------------*/
 .about-me-section {
-    background: rgb(190, 112, 112);
+    margin-bottom: 40px;
+}
+.about-me-profession {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    color: black;
+    margin-bottom: 20px;
+}
+.about-me-name {
+    font-style: normal;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    color: black;
+    margin-bottom: 25px;
+}
+.about-me-description {
+    /*width: 400px;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/*About my projects section --------------------------------------------------------*/
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.my-projects-list {
+    padding: 0 0 0 18px;
+}
+.my-projects-bracket,
+.my-projects-item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+.my-projects-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-projects-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 10px;
 }
 .my-projects-section {
-    background: rgb(95, 106, 179);
+    margin: 0 0 50px 0;
+}
+/*About my work section --------------------------------------------------------*/
+.my-work-experience-company {
+    color: rgb(227, 138, 5);
+}
+.my-work-experience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.my-work-experience-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ABABAB;
+    margin: 0 0 10px 0;
+}
+.my-work-experience-divider {
+    color: #000;
+}
+.my-work-experience-duties {
+    padding: 0 0 0 18px;
+}
+.my-work-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-work-experience-ofic {
+    margin: 0 0 15px 0;
 }
 .my-work-experience {
-    background: rgb(135, 189, 133);
+    margin: 0 0 50px 0;
 }
-.my-education {
-    background: rgb(167, 82, 167);
+/*About my education section --------------------------------------------------------*/
+.my-education-university {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(227, 138, 5);
+    margin-bottom: 5px;
 }
+.my-education-faculty {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+
+
+
 
 
 
@@ -35,7 +144,7 @@ body {
 /*sidebar*/
 
 .sidebar-section {
-    background-color: #838e9f;
+    background-color: #4d2701;
     width: 370px;
     padding: 40px 0;
     
